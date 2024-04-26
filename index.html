@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Banner Lab</title>
+    <style>
+        .banner {
+            width: 400px;
+            height: 200px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .banner h1 {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-family: Georgia, serif;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .turn-ons {
+            background-color: #ccffcc;
+            border-color: #2c9b10;
+        }
+
+        .turn-offs {
+            background-color: #ffcccc;
+            border-color: #ff6666;
+        }
+
+        .turn-offs h1 {
+            color: red;
+        }
+
+        .turn-ons h1 {
+            color: green;
+        }
+        .turn-offs p:before {
+            content: "• ";
+            color: #ff0000;
+        }
+
+        .turn-ons p:before {
+            content: "• ";
+            color: #009100;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner turn-ons">
+        <h1>Turn Ons</h1>
+        <p>Friendly/Approachable</p>
+        <p>Nice Personality</p>
+        <p>Same hobbies/interest</p>
+    </div>
+
+    <div class="banner turn-offs">
+        <h1>Turn Offs</h1>
+        <p>Maarte HAHA</p>
+        <p>Ma attitude</p>
+		<p>Jollibee</p>
+    </div>
+</body>
+</html>
